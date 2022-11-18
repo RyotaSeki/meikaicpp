@@ -1,11 +1,11 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-#define rep(i,n) for (int i = 0; i < (n); ++i)
+#define rep(i,n) for (long long i = 0; i < (n); ++i)
 
 int main(){
     cout << "kazu wo nyuuryoku site kuda sai\n";
-    int n,i=2;
+    long long n,i=2;
     cin >> n;
     cout << "n=";
     for(i;i<=n;){
